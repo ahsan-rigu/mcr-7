@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  color: white;
+}
+
+body{
+  background-color: #343434;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.pink{
+  color: palevioletred;
+}
+
+img.location{
+  width: 15rem;
+  aspect-ratio: 1;
+}
+
+.location-container{
+  display: flex;
+  max-width: 40rem;
+  margin: auto;
+  gap: 1rem;
+  text-align: left;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  position: relative;
+  margin: 1rem;
+}
+
+a img{
+  width: 15rem;
+  object-fit: cover;
+  aspect-ratio: 1;
+  border-radius: .5rem;
+}
+
+a span{
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+}
+
+.blue{
+  color: rgb(93, 0, 255);
+}
